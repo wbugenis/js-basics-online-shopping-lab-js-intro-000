@@ -48,6 +48,7 @@ function total() {
 }
 
 function removeFromCart(item) {
+  int i = 0;
   while( i < cart.length) {
     if(cart[i].itemName === item){
       cart.splice(i, 1)
