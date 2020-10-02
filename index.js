@@ -41,6 +41,9 @@ function total() {
 }
 
 function removeFromCart(item) {
+  while( i < cart.length) {
+    
+  }
   delete cart.item;
 }
 
