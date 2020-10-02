@@ -29,6 +29,7 @@ function viewCart() {
       i+= 1;
     }
     return str;
+  }
 }
 
 function total() {
