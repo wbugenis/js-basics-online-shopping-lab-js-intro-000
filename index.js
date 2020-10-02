@@ -41,7 +41,7 @@ function viewCart() {
 function total() {
   var i = 0, sum = 0;
   while (i < cart.length){
-    sum += cart.itemPrice[i];
+    sum += cart[i].itemPrice;
     i+= 1;
   }
   return sum;
