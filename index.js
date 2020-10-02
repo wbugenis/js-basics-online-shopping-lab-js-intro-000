@@ -42,7 +42,9 @@ function total() {
 
 function removeFromCart(item) {
   while( i < cart.length) {
-    
+    if(cart.itemName === item){
+      cart.splice(i, 1)
+    }
   }
   delete cart.item;
 }
