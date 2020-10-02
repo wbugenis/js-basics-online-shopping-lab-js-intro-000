@@ -27,8 +27,7 @@ function viewCart() {
       str += `${cart[i].itemName} at $${cart[i].itemPrice}`;
       if(i === cart.length - 1) {
         str += ".";
-      } 
-      if(i < cart.length - 1) {
+      } else if(i < cart.length - 1) {
         str += ", ";
       }
       i+= 1;
